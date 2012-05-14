@@ -1,0 +1,8 @@
+Gallery Qt App using Picture Flow Widget by Ariya Hidayat
+
+
+-Still in the beginning phase, trying to implement more QGraphicsView and if possible decrease memory usage
+-Learning how to use github(awesome).
+-Will have to add in menus and other functionality.
+-For now it can only be opened directly in the Folder with the images to work properly otherwise it defaults to documents folder
+-
