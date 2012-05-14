@@ -1,0 +1,21 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Images/blueBullet.png</file>
+        <file>Images/greenBullet.png</file>
+        <file>Images/left4.png</file>
+        <file>Images/right4.png</file>
+        <file>Images/scrollbar_h_rightArrow_pressed.png</file>
+        <file>Images/scrollbar_h_rightArrow_hover.png</file>
+        <file>Images/scrollbar_h_rightArrow.png</file>
+        <file>Images/scrollbar_h_leftArrow_pressed.png</file>
+        <file>Images/scrollbar_h_leftArrow_hover.png</file>
+        <file>Images/scrollbar_h_leftArrow.png</file>
+        <file>Images/scrollbar_h_body_pressed.png</file>
+        <file>Images/scrollbar_h_body_hover.png</file>
+        <file>Images/scrollbar_h_body.png</file>
+        <file>Images/scrollbar_h_bg.png</file>
+        <file>Images/leftarrowdisabled.png</file>
+        <file>Images/rightarrowdisabled.png</file>
+        <file>Images/pfGreenWhite.png</file>
+    </qresource>
+</RCC>

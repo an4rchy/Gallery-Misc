@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Ui_CPicScrollWidget</class>
+ <widget class="QWidget" name="Ui_CPicScrollWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>672</width>
+    <height>322</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout" stretch="3,1">
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <property name="margin">
+    <number>0</number>
+   </property>
+   <item>
+    <widget class="CHaemoFlowWidget" name="HaemoFlow">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="toolTip">
+      <string/>
+     </property>
+     <property name="whatsThis">
+      <string>This is the Haemo Flow Widget plugin, it adds Arrows and ScrollBar functionality to PictureFlow plugin.</string>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(144, 178, 196)</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="CScrollWidget" name="Scroll">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>150</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="toolTip">
+      <string/>
+     </property>
+     <property name="whatsThis">
+      <string>This is Scroll Widget, an List Scroll display plugin.</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>CScrollWidget</class>
+   <extends>QWidget</extends>
+   <header>CScrollWidget.hpp</header>
+  </customwidget>
+  <customwidget>
+   <class>CHaemoFlowWidget</class>
+   <extends>QWidget</extends>
+   <header>CHaemoFlowWidget.hpp</header>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="UiImgResources.qrc"/>
+ </resources>
+ <connections/>
+</ui>
